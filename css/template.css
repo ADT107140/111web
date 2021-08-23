@@ -1,0 +1,91 @@
+@font-face {
+  font-family: TaipeiSansTCBeta;
+  src: url("../font/TaipeiSansTCBeta-Regular.ttf") format("opentype");
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  font-family: TaipeiSansTCBeta;
+  background-color: #FFFFFF;
+}
+
+body .dct-nav {
+  padding: 0;
+  background-color: #E9C6BB;
+  color: #615B5C !important;
+  box-shadow: 0px 1px 10px 1px #242424;
+  -webkit-box-shadow: 0px 1px 10px 1px #242424;
+  -moz-box-shadow: 0px 1px 10px 1px #242424;
+  -o-box-shadow: 0px 1px 10px 1px #242424;
+  z-index: 1;
+}
+
+body .dct-nav .dct-nav-container {
+  max-width: 100%;
+  margin: 0 10px;
+}
+
+body .dct-nav .dct-logo {
+  height: 65px;
+}
+
+body .dct-nav .dct-menu {
+  width: 80px;
+  height: 80px;
+}
+
+body .dct-nav .dct-link {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  margin: 0 5px;
+  padding: 25px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: #615B5C;
+}
+
+@media (max-width: 992px) {
+  body .dct-nav .dct-link {
+    border-radius: 0px;
+  }
+}
+
+body .dct-nav .dct-link:hover {
+  text-align: center;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background-color: #D2A192;
+}
+
+@media (max-width: 992px) {
+  body .dct-nav .dct-link:hover {
+    border-radius: 0px;
+  }
+}
+
+body header .dct-overlay {
+  background-color: #FBEEEB !important;
+  opacity: 1 !important;
+}
+
+body header .dct-video {
+  width: 100%;
+  height: 100%;
+}
+
+body .dct-footer {
+  background-color: #FFFFFF;
+}
+
+body .dct-footer .dct-copyright {
+  color: #615B5C;
+}
+
+a {
+  color: currentColor;
+}
+/*# sourceMappingURL=template.css.map */
